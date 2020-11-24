@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{0f3cea45-7c4c-4b27-8a60-268321e14f73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bullet">
+      <UniqueIdentifier>{99f24c3c-bcc5-45d5-b575-1b55cc00a443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Player">
+      <UniqueIdentifier>{d307e3ce-eaff-4835-8903-f346c31b061f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\State">
+      <UniqueIdentifier>{180cdb7a-8a3e-4b54-9e20-ebb4c6843c91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\bot">
+      <UniqueIdentifier>{9ebc943a-cd61-4629-b864-10df42834e6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AI class">
+      <UniqueIdentifier>{503e7473-53fa-4f58-8fbe-f704b0faa13d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\bot\bot001">
+      <UniqueIdentifier>{25921565-b456-4b72-8f15-c52a5f73355e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\bot\bot002">
+      <UniqueIdentifier>{d3b8ad1c-353e-4eb9-92bc-9fab22e85b13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\bot\bot003">
+      <UniqueIdentifier>{184d534f-5a5c-4b9b-84d0-728db7588965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\bot\bot004">
+      <UniqueIdentifier>{0ca78ab7-740f-44db-9367-9ad7fe0ec112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ETC.">
+      <UniqueIdentifier>{1c51dbac-c6fd-4c62-a1e1-3b68987d1a42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ETC.\gate">
+      <UniqueIdentifier>{a1fea090-f926-4ea7-95a1-11bf82ce0aed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\bot\MVP">
+      <UniqueIdentifier>{c1d3298f-c935-46c3-8180-b7ce17c9a6a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\bot\Metrao">
+      <UniqueIdentifier>{ba4526d8-6352-403f-be03-9f47f7967ee2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ETC.\box">
+      <UniqueIdentifier>{bdef3cfb-d380-4601-9d21-a77ba6ccfb0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\bot\botFly">
+      <UniqueIdentifier>{59379af4-15f4-41e7-8371-e02558ebf448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ETC.\treasures">
+      <UniqueIdentifier>{148aa49a-9513-4170-b516-338232fc5c69}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Source Files\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Resource Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuState.cpp">
+      <Filter>Resource Files\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Header Files\bot\Metrao</Filter>
+    </ClCompile>
+    <ClCompile Include="bot001.cpp">
+      <Filter>Header Files\bot\bot001</Filter>
+    </ClCompile>
+    <ClCompile Include="bot001__HP.cpp">
+      <Filter>Header Files\bot\bot001</Filter>
+    </ClCompile>
+    <ClCompile Include="bot_002.cpp">
+      <Filter>Header Files\bot\bot002</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Resource Files\State</Filter>
+    </ClCompile>
+    <ClCompile Include="bot003.cpp">
+      <Filter>Header Files\bot\bot003</Filter>
+    </ClCompile>
+    <ClCompile Include="botShoot.cpp">
+      <Filter>Header Files\bot\bot003</Filter>
+    </ClCompile>
+    <ClCompile Include="bot004.cpp">
+      <Filter>Header Files\bot\bot004</Filter>
+    </ClCompile>
+    <ClCompile Include="MVP.cpp">
+      <Filter>Header Files\bot\MVP</Filter>
+    </ClCompile>
+    <ClCompile Include="gateAuraIn.cpp">
+      <Filter>Header Files\ETC.\gate</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Header Files\AI class</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Resource Files\State</Filter>
+    </ClCompile>
+    <ClCompile Include="box.cpp">
+      <Filter>Header Files\ETC.\box</Filter>
+    </ClCompile>
+    <ClCompile Include="MVPfire.cpp">
+      <Filter>Header Files\bot\MVP</Filter>
+    </ClCompile>
+    <ClCompile Include="Electrical.cpp">
+      <Filter>Header Files\bot\MVP</Filter>
+    </ClCompile>
+    <ClCompile Include="botFly.cpp">
+      <Filter>Header Files\bot\botFly</Filter>
+    </ClCompile>
+    <ClCompile Include="flyAttack.cpp">
+      <Filter>Header Files\bot\botFly</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bullet.h">
+      <Filter>Source Files\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Resource Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuState.h">
+      <Filter>Resource Files\State</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Resource Files\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files\bot\Metrao</Filter>
+    </ClInclude>
+    <ClInclude Include="bot001.h">
+      <Filter>Header Files\bot\bot001</Filter>
+    </ClInclude>
+    <ClInclude Include="bot001__HP.h">
+      <Filter>Header Files\bot\bot001</Filter>
+    </ClInclude>
+    <ClInclude Include="bot_002.h">
+      <Filter>Header Files\bot\bot002</Filter>
+    </ClInclude>
+    <ClInclude Include="gateAuraIn.h">
+      <Filter>Header Files\ETC.\gate</Filter>
+    </ClInclude>
+    <ClInclude Include="bot003.h">
+      <Filter>Header Files\bot\bot003</Filter>
+    </ClInclude>
+    <ClInclude Include="botShoot.h">
+      <Filter>Header Files\bot\bot003</Filter>
+    </ClInclude>
+    <ClInclude Include="bot004.h">
+      <Filter>Header Files\bot\bot004</Filter>
+    </ClInclude>
+    <ClInclude Include="MVP.h">
+      <Filter>Header Files\bot\MVP</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files\AI class</Filter>
+    </ClInclude>
+    <ClInclude Include="box.h">
+      <Filter>Header Files\ETC.\box</Filter>
+    </ClInclude>
+    <ClInclude Include="MVPfire.h">
+      <Filter>Header Files\bot\MVP</Filter>
+    </ClInclude>
+    <ClInclude Include="Electrical.h">
+      <Filter>Header Files\bot\MVP</Filter>
+    </ClInclude>
+    <ClInclude Include="botFly.h">
+      <Filter>Header Files\bot\botFly</Filter>
+    </ClInclude>
+    <ClInclude Include="flyAttack.h">
+      <Filter>Header Files\bot\botFly</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="score\score.txt">
+      <Filter>Header Files\bot</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
